@@ -2,7 +2,7 @@
    display: flex;
 }
 
-
+/*左*/
 .side-ber{
    width: 300px;
    height: 100vh;
@@ -12,15 +12,44 @@
 .side-header{
    height: 100px;
    padding: 0 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
+
+.user-name a{
+   font-size: 16px;
+   color: #fafafa;
+   text-decoration: none;
+}
+
+.createroom-btn a{
+   padding: 14px;
+   font-size: 10px;
+   color: deepskyblue;
+   border: 1px solid lightblue;
+   text-decoration: none;
+}
+
 
 .rooms{
    height: calc(100vh - 100px);
    padding: 0 20px;
    background-color: #2f3e51;
+   overflow: scroll;
+}
+
+.room{
+   padding: 20px 0 40px;
+}
+
+.room-name a{
+   color: white;
+   text-decoration: none;
 }
 
 
+/*右*/
 .main-chat{
    width: calc(100vw - 300px);
    background-color: #ffffff;
