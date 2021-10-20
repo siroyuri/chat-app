@@ -102,10 +102,13 @@
    color: #999;
 }
 
+.lower-message{
+   margin-top: 10px;
+}
+
 .text{
    font-size: 14px;
    color: #434a54;
-   margin-top: 10px;
 }
 
 .user-date{
